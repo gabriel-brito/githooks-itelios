@@ -45,7 +45,7 @@ SENÃO não existem pontos negativos!
   <p align="center">"Caralho, o maluco é brabo" - Stronda, Leo.</figcaption>
 </p>
 
-## Chega de enrolação e vamos ao código!
+## Chega de enrolação e vamos ao ponto!
 
 Irei exemplificar essa melhoria no seu workflow com o as seguintes ferramentas:
 
@@ -108,6 +108,99 @@ Será instalado alguns plugins adicionais e pronto, seu linter está pronto para
   <img src="./docs/eslint-pronto.jpg">
 </p>
 
-## Parte 2 - Criando seu script npm de teste
+## Parte 2 - Criando seu NPM Script
 
-A parte anterior foi unicamente ensinando como aplicar o ESlint no seu projeto, agora iremos fazer um NPM Script que verifique seu código! :)
+A parte anterior foi unicamente ensinando como aplicar o ESlint no seu projeto, agora iremos fazer um NPM Script que valide seu código! :)
+
+Caso tenha dado uma olhada no [estilo de código do AirBnB](https://github.com/airbnb/javascript), você pode observar que o padrão deles não permite:
+
+* Strings armazenadas com aspas duplas;
+
+* Variáveis atribuidas sem serem chamadas;
+
+* Variáveis declaradas com *var*
+
+* A falta do ponto e virgula;
+
+* etc.
+
+### Criando um arquivo .js
+
+Criei um arquivo JavaScript chamado **_main.js_** dentro de uma pasta chamada **_src_**, como vocês podem ver:
+
+<p align="center">
+  <img src="./docs/main.jpg">
+</p>
+
+E agora irei criar um código qualquer e rodar o ESlint pra verificar se há erros.
+
+O código a ser validado será:
+
+```javascript
+const a = 12
+
+var b;
+
+console.log(a)
+
+let trab = "asoijaiossaoasa";
+```
+
+<p align="center">
+  <img src="./docs/scripts.jpg">
+</p>
+
+### Rodando o ESlint
+
+Agora iremos efetuar o teste do ESlint, onde será verificado se o código segue o [padrão definido](ttps://github.com/airbnb/javascript).
+
+A utilização é feita a partir do comando:
+
+```
+  ./node_modules/.bin/eslint src/*.js
+```
+
+<p align="center">
+  <img src="./docs/eslint-script.jpg">
+</p>
+
+A verificação é feita dentro da pasta **_src_** com todos os arquivos com extensão **_.js_**.
+
+O resultado é esse:
+
+<p align="center">
+  <img src="./docs/eslint-erros.jpg">
+</p>
+
+Podemos ver que o ESlint detectou muitos erros de padrão, dentre eles:
+
+* Falta de ponto e virgula;
+
+* Variável atribuida com **_var_**;
+
+* Que uma variável foi definida, mas nunca foi chamada.
+
+* etc.
+
+Está funcionando perfeitamente, então iremos arrumar o código e rodar novamente o script.
+O código 'refatorado' agora será esse:
+
+```javascript
+const numberOne = 12;
+const numberTwo = 2;
+
+const trab = 'asoijaiossaoasa';
+
+function sum(a, b) {
+  const text = trab;
+
+  return a + b + text.length();
+}
+
+sum(numberOne, numberTwo);
+
+```
+
+<p align="center">
+  <img src="./docs/eslint-refatorado.jpg">
+</p>
