@@ -8,7 +8,7 @@
 
 
 ## TL;DR
-O Git Husky é uma ferramenta que vai dar um boost no seu workflow! Ele ira testar seu código e seu guia de estilo antes de subir seu código para a produção.
+O Git Husky é uma ferramenta que vai dar um boost no seu workflow, testar seu código, seu styleguide e ai sim, se estiver tudo certo, vai subir seu código para a produção.
 
 <p align="center">
   <img style="text-align: center;" src="./docs/uau.gif">
