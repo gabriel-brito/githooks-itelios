@@ -338,8 +338,14 @@ E voilà! Como o Linter não deu um 'ok' pro prepush, o Husky evitou desse códi
 
 Agora iremos efetuar um teste que seja válido e o prepush deixe essa modificação subir.
 
-Temos de comitar novamente para que tudo seja computado pelo Husky e pela branch:
+Ao arrumar todos os arquivos, temos de comitar novamente para que tudo seja computado pelo Husky e pela branch:
 
 <p align="center">
   <img src="./docs/prepush-commit-ok.jpg">
+</p>
+
+E assim efetuar o push novamente. Será efetuado todos os testes do linter e após os testes dispararem que tudo está ok, o prepush do husky ira subir os arquivos no servidor:
+
+<p align="center">
+  <img src="./docs/prepush-success.jpg">
 </p>
