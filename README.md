@@ -6,7 +6,6 @@
   <img src="./docs/clean-code.jpeg">
 </p>
 
-
 ## TL;DR
 O Git Husky é uma ferramenta que vai dar um boost no seu workflow, testar seu código, seu styleguide e ai sim, se estiver tudo certo, vai subir seu código para a produção.
 
@@ -14,4 +13,33 @@ O Git Husky é uma ferramenta que vai dar um boost no seu workflow, testar seu c
   <img style="text-align: center;" src="./docs/uau.gif">
 </p>
 
-### Pontos positivos na padronização do seu código
+Antes de explicar como a ferramenta funciona, vou falar sobre alguns pontos positivos e negativos sobre a padronização do seu código.
+
+#### Pontos positivos:
+
+* Um código com melhor legibilidade;
+
+* Facilidade de manutenção;
+
+* Código escalável;
+
+* Menos bugs;
+
+* Redução do tempo (e custo) do projeto;
+
+* Um chefe feliz;
+
+* E Menos dor de cabeça.
+
+
+#### Pontos negativos:
+
+SE, numa sexta-feira, você não seguiu o padrão de código proposto pelo projeto, eis o ponto negativo:
+
+* Sem HappyHour pra você :)
+
+SENÃO não existem pontos negativos!
+
+<p align="center">
+  <img src="./docs/stronda.jpg">
+</p>
