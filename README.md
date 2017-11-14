@@ -128,7 +128,7 @@ Caso tenha dado uma olhada no [estilo de código do AirBnB](https://github.com/a
 
 Criei um arquivo JavaScript chamado **_main.js_** dentro de uma pasta chamada **_src_**, como vocês podem ver:
 
-<p align="center">
+<p align="left">
   <img src="./docs/main.jpg">
 </p>
 
@@ -146,7 +146,7 @@ console.log(a)
 let trab = "asoijaiossaoasa";
 ```
 
-<p align="center">
+<p align="left">
   <img src="./docs/scripts.jpg">
 </p>
 
@@ -201,6 +201,21 @@ sum(numberOne, numberTwo);
 
 ```
 
-<p align="center">
+<p align="left">
   <img src="./docs/eslint-refatorado.jpg">
 </p>
+
+Ao chamar o Script novamente, vemos que agora nenhum erro é disparado:
+
+<p align="center">
+  <img src="./docs/eslint-ok.jpg">
+</p>
+
+<p align="center">
+  <img src="./docs/pele.gif">
+  <p align="center">Eita maravilha!</p>
+</p>
+
+Mas imagina que chato vai ser escrever _./node_modules/.bin/eslint src/*.js_ toda vez que for executar o linter.
+É ai que entra o NPM Script com a automatização!
+
