@@ -235,32 +235,60 @@ Dentro dessa sessão, iremos adicionar o seguinte trecho de código:
 E ira ficar assim:
 
 <p align="center">
-  <img src="./docs/package-lint.jpg">
+  <img src="./docs/package-lint.jpg" alt="linter">
 </p>
 
 Desse modo, é só ir no seu terminal e rodar o comando **_npm run lint_**
 
 <p align="center">
-  <img src="./docs/run-lint.jpg">
+  <img src="./docs/run-lint.jpg" alt="linter">
 </p>
 
 Como nosso script está refatorado e pronto pra utilização, não será disparado nenhum erro!
 
 <p align="center">
-  <img src="./docs/run-lint-success.jpg">
+  <img src="./docs/run-lint-success.jpg" alt="linter">
 </p>
 
 Caso tivesse dado algum erro, teria sido disparado igual ao erro anterior. Então fica muito mais fácil saber se o seu código está em dia com os padrões propostos!
 
 <p align="center">
-  <img src="./docs/run-lint-error.jpg">
+  <img src="./docs/run-lint-error.jpg" alt="Linter">
 </p>
 
 ## Parte 3 - Git Hooks com Husky!
 
-Imagina o seguinte: É final do dia de uma sexta-feira, você acordou cedo, pegou trânsito, teve reuniões, planejou os próximos sprints, codou o dia inteiro e na hora de ir embora (onde você já está exausto), você dá um _push_ na branch errada ou acaba modificando código em produção que não deveria ser alterado. Ou seja, ia ser uma bagunça total e uma dor de cabeça pra arrumar tudo.
+Imagina o seguinte: É final do dia de uma sexta-feira, você acordou cedo, pegou trânsito, teve reuniões, planejou os próximos sprints, codou o dia inteiro e na hora de ir embora (onde você já está exausto), você dá um _push_ na branch errada ou acaba modificando um código em produção que não deveria ser alterado. Ou seja, ia ser uma bagunça total e uma dor de cabeça pra arrumar tudo.
 
 <p align="center">
-  <img src="./docs/panda.gif">
+  <img src="./docs/panda.gif" alt="panda bravo">
   <p align="center">Nesse caso, o panda é seu chefe.</p>
 </p>
+
+---
+
+### Salvando seu dia com Git Husky!
+
+Pra quem não conhece, o [Git Husky](https://github.com/typicode/husky) nada mais é que um facilitador dos [Git Hooks](https://git-scm.com/book/gr/v2/Customizing-Git-Git-Hooks).
+
+Possuindo TODOS os hooks do Git em sua programação, facilita bastante o desenvolvimento de software sem, ou quase nenhum, erro.
+
+Confira a tabela aqui: https://github.com/typicode/husky/blob/master/HOOKS.md
+
+---
+
+### E como ele funciona?
+
+<p align="center">
+  <img src="./docs/duvida.gif" alt="duvida">
+</p>
+
+Sua instalação funciona da seguinte maneira:
+
+```
+  npm install --save-dev husky
+```
+<p align="center">
+  <img src="./docs/husky.jpg">
+</p>
+
