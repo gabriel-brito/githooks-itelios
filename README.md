@@ -42,5 +42,5 @@ SENÃO não existem pontos negativos!
 
 <p align="center">
   <img src="./docs/stronda.jpg">
-  <figcaption>Caralho, o maluco é brabo</figcaption>
+  <figcaption align="center">Caralho, o maluco é brabo</figcaption>
 </p>
