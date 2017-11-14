@@ -255,3 +255,12 @@ Caso tivesse dado algum erro, teria sido disparado igual ao erro anterior. Entã
 <p align="center">
   <img src="./docs/run-lint-error.jpg">
 </p>
+
+## Parte 3 - Git Hooks com Husky!
+
+Imagina o seguinte: É final do dia de uma sexta-feira, você acordou cedo, pegou trânsito, teve reuniões, planejou os próximos sprints, codou o dia inteiro e na hora de ir embora (onde você já está exausto), você dá um _push_ na branch errada ou acaba modificando código em produção que não deveria ser alterado. Ou seja, ia ser uma bagunça total e uma dor de cabeça pra arrumar tudo.
+
+<p align="center">
+  <img src="./docs/panda.gif">
+  <p align="center">Nesse caso, o panda é seu chefe.</p>
+</p>
