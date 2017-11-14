@@ -42,5 +42,29 @@ SENÃO não existem pontos negativos!
 
 <p align="center">
   <img src="./docs/stronda.jpg">
-  <figcaption align="center">Caralho, o maluco é brabo</figcaption>
+  <p align="center">Caralho, o maluco é brabo</figcaption>
+</p>
+
+## Chega de enrolação e vamos ao código!
+
+Irei exemplificar essa melhoria no seu workflow com as seguintes ferramentas:
+
+* [ESLint](https://eslint.org/)
+
+>ESLint é um linter de código JavaScript, um projeto Open Source feito originalmente pelo Nicholas C. Zakas em 2013. A função do linter de código é analisar e detectar problemas no seu padrão de código e também verificar se o mesmo se encontra nos padrões de sua styleguide.
+
+* [GitHusky](https://github.com/typicode/husky)
+
+>O Git Husky nada mais é que um githook de forma facilitada. Um pouco mais recente, seu primeiro commit foi dia '23 Jun 2014' e foi criado por um usuário do github chamado Typicode.
+
+## Parte 1 - definindo seu styleguide com ESLint
+
+No diretório do seu projeto, inicie a instalação da ferramente ESLint com o commando:
+
+```
+  npm install eslint --save-dev
+```
+
+<p align="center">
+  <img src="eslint-install.jpg">
 </p>
