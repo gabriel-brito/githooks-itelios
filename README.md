@@ -42,7 +42,7 @@ SENÃO não existem pontos negativos!
 
 <p align="center">
   <img src="./docs/stronda.jpg">
-  <p align="center">Caralho, o maluco é brabo</figcaption>
+  <p align="center">"Caralho, o maluco é brabo" - Stronda, Leo.</figcaption>
 </p>
 
 ## Chega de enrolação e vamos ao código!
@@ -66,5 +66,5 @@ No diretório do seu projeto, inicie a instalação da ferramente ESLint com o c
 ```
 
 <p align="center">
-  <img src="eslint-install.jpg">
+  <img src="./docs/eslint-install.jpg">
 </p>
