@@ -29,7 +29,7 @@ Antes de explicar como a ferramenta funciona, vou falar sobre alguns pontos posi
 
 * Um chefe feliz;
 
-* E Menos dor de cabeça.
+* E menos dor de cabeça.
 
 
 #### Pontos negativos:
@@ -107,3 +107,7 @@ Será instalado alguns plugins adicionais e pronto, seu linter está pronto para
 <p align="center">
   <img src="./docs/eslint-pronto.jpg">
 </p>
+
+## Parte 2 - Criando seu script npm de teste
+
+A parte anterior foi unicamente ensinando como aplicar o ESlint no seu projeto, agora iremos fazer um NPM Script que verifique seu código! :)
