@@ -47,7 +47,7 @@ SENÃO não existem pontos negativos!
 
 ## Chega de enrolação e vamos ao código!
 
-Irei exemplificar essa melhoria no seu workflow com as seguintes ferramentas:
+Irei exemplificar essa melhoria no seu workflow com o as seguintes ferramentas:
 
 * [ESLint](https://eslint.org/)
 
@@ -67,4 +67,43 @@ No diretório do seu projeto, inicie a instalação da ferramente ESLint com o c
 
 <p align="center">
   <img src="./docs/eslint-install.jpg">
+</p>
+
+Após a instalação, precisaremos definir o padrão do seu linter de código. Eu, particularmente, escolhi o styleguide do [AirBnB](https://github.com/airbnb/javascript). Iremos iniciar o padrão do seu styleguide com os seguintes passos:
+
+```
+  ./node_modules/.bin/eslint --init
+```
+<p align="center">
+  <img src="./docs/eslint-init.jpg">
+</p>
+
+Com as setas, escolheremos então a opção 'Use a popular style guide' e apertaremos enter:
+
+<p align="center">
+  <img src="./docs/eslint-popular.jpg">
+</p>
+
+E 'setaremos' o estilo do AirBnB:
+
+<p align="center">
+  <img src="./docs/eslint-airbnb.jpg">
+</p>
+
+Nesse caso, não estarei usando o React, então eu respondo com 'N' a próxima etapa:
+
+<p align="center">
+  <img src="./docs/eslint-n.jpg">
+</p>
+
+E então será escolhido o formato do arquivo .eslintrc, que será gerado pelo linter. Eu sempre prefiro usar a extensão .json:
+
+<p align="center">
+  <img src="./docs/eslint-json.jpg">
+</p>
+
+Será instalado alguns plugins adicionais e pronto, seu linter está pronto para uso:
+
+<p align="center">
+  <img src="./docs/eslint-pronto.jpg">
 </p>
