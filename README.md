@@ -292,3 +292,6 @@ Sua instalação funciona da seguinte maneira:
   <img src="./docs/husky.jpg">
 </p>
 
+Nesse caso, iremos utilizar somento o 'prepush'. Que funciona da seguinte maneira:
+
+Se todo o código estiver no seu devido padrão, o git push é liberado e as alterações sobem pra branch. Senão está tudo ok, o husky impede do push ser realizado até todo o código estar perfeito!
