@@ -323,5 +323,23 @@ Lembra que o código deu erro com o **_npm run lint_** deu problema da segunda v
 </p>
 
 <p align="center">
+  <img src="./docs/prepush-commit-error-ok.jpg">
+</p>
+
+Agora o push!
+
+<p align="center">
   <img src="./docs/prepush-error.jpg">
+</p>
+
+E voilà! Como o Linter não deu um 'ok' pro prepush, o Husky evitou desse código quebrado subir, evitando assim um problema futuro!
+
+---
+
+Agora iremos efetuar um teste que seja válido e o prepush deixe essa modificação subir.
+
+Temos de comitar novamente para que tudo seja computado pelo Husky e pela branch:
+
+<p align="center">
+  <img src="./docs/prepush-commit-ok.jpg">
 </p>

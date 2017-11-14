@@ -4,9 +4,9 @@ const numberTwo = 2;
 const trab = 'asoijaiossaoasa';
 
 function sum(a, b) {
-  const text = trab
+  const text = trab;
 
   return a + b + text.length();
 }
 
-sum(12, numberTwo);
+sum(numberOne, numberTwo);
