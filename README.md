@@ -295,3 +295,33 @@ Sua instalação funciona da seguinte maneira:
 Nesse caso, iremos utilizar somento o 'prepush'. Que funciona da seguinte maneira:
 
 Se todo o código estiver no seu devido padrão, o git push é liberado e as alterações sobem pra branch. Senão está tudo ok, o husky impede do push ser realizado até todo o código estar perfeito!
+
+Na prática fica assim:
+
+O primeiro passo pra configurar é abrir o seu **_package.json_** e setar qual o hook desejado e qual o script que esse hook vai efetuar.
+
+No caso, irei utilizar o *prepush* utilizando o *ESlint* com o script criado anteriormente!
+
+O código no NPM Scripts ficara assim:
+
+```
+  "prepush": "npm run lint npm run build"
+```
+
+<p align="center">
+  <img src="./docs/npm-prepush.jpg">
+</p>
+
+---
+
+### Evitando um código quebrado de subir
+
+Lembra que o código deu erro com o **_npm run lint_** deu problema da segunda vez propositalmente? Não fiz alteração naquele código e com o NPM Script e o Githook setado para o prepush, irei efetuar um commit e um push para a branch do GitHub. Você ira ver que vai dar erro!
+
+<p align="center">
+  <img src="./docs/prepush-commit.jpg">
+</p>
+
+<p align="center">
+  <img src="./docs/prepush-error.jpg">
+</p>
