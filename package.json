@@ -1,0 +1,24 @@
+{
+  "name": "githooks-itelios",
+  "version": "1.0.0",
+  "description": "Apresentação do GitHook para o time de Front-End",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriel-brito/githooks-itelios.git"
+  },
+  "keywords": [
+    "presentation",
+    "itelios",
+    "november"
+  ],
+  "author": "Gabriel Santos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabriel-brito/githooks-itelios/issues"
+  },
+  "homepage": "https://github.com/gabriel-brito/githooks-itelios#readme"
+}
