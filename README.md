@@ -352,8 +352,7 @@ E assim efetuar o push novamente. Ser√° efetuado todos os testes do linter e ap√
 
 Espero ter ajudado a melhorar o seu workflow, o workflow da sua empresa, o workflow de todo mundo!
 
-See you space cowboy!
-
 <p align="center">
   <img src="./docs/see-you.gif" alt="See you space cowboy">
+  <p align="center">See you space cowboy!</p>
 </p>
