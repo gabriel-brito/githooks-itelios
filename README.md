@@ -271,9 +271,9 @@ Imagina o seguinte: É final do dia de uma sexta-feira, você acordou cedo, pego
 
 Pra quem não conhece, o [Git Husky](https://github.com/typicode/husky) nada mais é que um facilitador dos [Git Hooks](https://git-scm.com/book/gr/v2/Customizing-Git-Git-Hooks).
 
-Possuindo TODOS os hooks do Git em sua programação, facilita bastante o desenvolvimento de software sem, ou quase nenhum, erro.
+Possuindo TODOS os hooks do Git em sua programação, facilitando bastante o desenvolvimento de software sem, ou quase nenhum erro.
 
-Confira a tabela aqui: https://github.com/typicode/husky/blob/master/HOOKS.md
+Confira a tabela dos hooks aqui: https://github.com/typicode/husky/blob/master/HOOKS.md
 
 ---
 
@@ -294,7 +294,7 @@ Sua instalação funciona da seguinte maneira:
 
 Nesse caso, iremos utilizar somento o 'prepush'. Que funciona da seguinte maneira:
 
-Se todo o código estiver no seu devido padrão, o git push é liberado e as alterações sobem pra branch. Senão está tudo ok, o husky impede do push ser realizado até todo o código estar perfeito!
+Se todo o código estiver no seu devido padrão, o git push é liberado e as alterações sobem pra branch. Senão estiver tudo ok, o husky vai impedir o seu push ser realizado até todo o código estar perfeito!
 
 Na prática fica assim:
 
@@ -305,7 +305,7 @@ No caso, irei utilizar o *prepush* utilizando o *ESlint* com o script criado ant
 O código no NPM Scripts ficara assim:
 
 ```
-  "prepush": "npm run lint npm run build"
+  "prepush": "npm run lint"
 ```
 
 <p align="center">
@@ -332,7 +332,7 @@ Agora o push!
   <img src="./docs/prepush-error.jpg">
 </p>
 
-E voilà! Como o Linter não deu um 'ok' pro prepush, o Husky evitou desse código quebrado subir, evitando assim um problema futuro!
+E voilà! Como o Linter não deu um 'ok' para o prepush, o Husky evitou desse código quebrado subir, evitando assim um problema futuro!
 
 ---
 
@@ -348,4 +348,12 @@ E assim efetuar o push novamente. Será efetuado todos os testes do linter e ap�
 
 <p align="center">
   <img src="./docs/prepush-success.jpg">
+</p>
+
+Espero ter ajudado a melhorar o seu workflow, o workflow da sua empresa, o workflow de todo mundo!
+
+See you space cowboy!
+
+<p align="center">
+  <img src="./docs/see-you.gif" alt="See you space cowboy">
 </p>
